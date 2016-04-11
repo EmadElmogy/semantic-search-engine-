@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>
+            Dextra v.1
+        </title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    <body onload="document.mainForm.TxtField.focus();">
+        <div id="headerDiv">
+            <div id="header1">
+                <div id="downApp">
+                    <div id="txtHeader"><p>Have an Android?</p></div>
+                    <div id="btnHeader">DOWNLOAD THE APP</div>
+                </div>
+            </div>
+        </div>
+        <div id="body1">
+            <div id="bodyContents">
+                
+                <div id="logo">
+                    <img src="{{ url_for('static', filename='imgs/logoEs2lni4s.png') }}">
+                </div>
+                <form method="POST" action="{{ url_for('engine') }}" name="mainForm">
+                    <input id="txtField" name="question">
+                    <div id="btnSearch"><input id="btn" type="submit" value="Answer"></div>
+                </form>
+                
+                
+            </div>
+        </div>
+    </body>
+</html>

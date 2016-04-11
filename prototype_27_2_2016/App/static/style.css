@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+body{
+    background-color: #eeebe4;
+}
+
+#headerDiv{
+    width: 100%;
+    height: 80px;
+    background-color: #e2dfd8;
+    /*box-shadow: 0 1px 5px 0 #d1d1d1;*/
+}
+
+#header1{
+    width: 80%;
+    height: inherit;
+    margin: 0 auto;
+}
+
+#downApp{
+    float: right;
+    padding: 20px;
+}
+
+#txtHeader{
+    float: left;
+    height: 20px;
+    padding: 10px 40px;
+    margin-top: 2px;
+    margin-right: -30px;
+    font-size: 12px;
+    font-weight: normal;
+    color: #6f6f6f;
+}
+
+#btnHeader{
+    border-radius: 5px;
+    background-color: #eeeeee;
+    color: #6f6f6f;
+    box-shadow: 0 2px #cccccc;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: normal;
+    cursor: pointer;
+    float:right;
+    padding: 8px 25px;
+    margin: 2px 8px;
+    text-align: center;
+    position: relative;
+    border-style: none;
+    transition: background-color 0.3s;
+}
+#btnHeader:hover{
+    background-color: #f7f7f7;
+    box-shadow: 0 1px #cccccc;
+    top: 1px;
+}
+#btnHeader:active{
+    background-color: #cccccc;
+    color: #fff;
+    box-shadow: 0 0 #cccccc;
+    top: 2px;
+}
+
+#btn{
+    width: 100px;
+    background-color: #1abc9c;
+    color: #fff;
+    font-family: Arial;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+    border-style: none;
+    transition: background-color 0.3s;
+}
+
+#btnSearch{
+    width: 100px;
+    border-radius: 5px;
+    background-color: #1abc9c;
+    color: #fff;
+    box-shadow: 0 2px #1a9179;
+    font-family: Arial;
+    cursor: pointer;
+    padding: 10px 40px;
+    margin: 2px auto;
+    text-align: center;
+    position: relative;
+    border-style: none;
+    transition: background-color 0.3s;
+}
+#btnSearch:hover{
+    background-color: #30cdae;
+    box-shadow: 0 1px #1a9179;
+    top: 1px;
+}
+#btnSearch:active{
+    background-color: #1a9179;
+    box-shadow: 0 0 #1a9179;
+    top: 2px;
+}
+
+#body1{
+    width: 100%;
+    height: 400px;
+}
+
+#bodyContents{
+    margin: 0 auto;
+    padding: 10px;
+    width: 500px;
+    height: inherit;
+    align-content: center;   
+}
+
+#logo{
+    float: left;
+    margin-left: 130px;
+    margin-top: 5px;
+}
+
+#txtField{
+    width: 100%;
+    padding: 10px 3px;
+    margin: 10px;
+    font-size: 15px;
+    border-color: #cccccc;
+    border-style:solid;
+    transition: border-color 0.3s;
+
+}
+#txtField:focus{
+    border-color: #1293a1;
+}
